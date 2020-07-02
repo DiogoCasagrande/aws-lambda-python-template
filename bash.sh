@@ -15,7 +15,7 @@ cp -rf env/lib/python3.*/site-packages/* dist
 cp src/*.py dist
 
 cd dist
-zip -r lambda.zip
+zip -r lambda.zip .
 
 cd ..
 mv dist/lambda.zip .
